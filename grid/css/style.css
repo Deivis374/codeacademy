@@ -1,9 +1,12 @@
-#grid {
-    display: flex;
+.grid-container {
+    grid-template-columns: auto auto auto;
+    row-gap: 300px;
+    display: grid;
 }
 .flexbox {
-    display: block;
+    display: flex;
     width: 180px;
     height: 180px;
     border: 1px solid coral;
+
 }
